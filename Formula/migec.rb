@@ -3,7 +3,7 @@ class Migec < Formula
   homepage "http://migec.readthedocs.org/en/latest/index.html"
   url "https://github.com/mikessh/migec/releases/download/1.2.4/migec-1.2.4.zip"
   version "1.2.4"
-  sha256 "aa3d63ffc29c59fe0017e21b600203181326bfd31f210aa3b89098da485e6a0f"
+  sha256 "1ef7dd83d0f90ede2c2982a641fc27b6d58b1e8d448e985913b210747253ed63"
 
   depends_on :java
 
