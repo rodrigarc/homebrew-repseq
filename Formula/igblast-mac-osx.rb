@@ -1,4 +1,4 @@
-class IgBlastMacOs < Formula
+class IgblastMacOsx < Formula
   desc "IgBlast: A tool for immunoglobulin (IG) and T cell receptor (TR) V domain sequences."
   homepage "http://www.ncbi.nlm.nih.gov/igblast/igblast.cgi"
   url "https://github.com/mikessh/igblast-bin/releases/download/1.0/igblast-macosx.zip"
