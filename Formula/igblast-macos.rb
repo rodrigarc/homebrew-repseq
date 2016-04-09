@@ -5,6 +5,7 @@ class IgblastMacos < Formula
   version "1.4.0"
   sha256 "16b5bec47ff8c52cfaaac287e487e2fea62c41a037896845c8f3e74bc160a342"
 
+  conflicts_with "blast", :because => "also ships makeblastdb binaries, use 'brew link --overwrite igblast-macos'"
   conflicts_with "igblast-linux", :because => "also ships igblastn, igblastp and makeblastdb binaries"
 
   def install
