@@ -3,7 +3,7 @@ class Vdjtools < Formula
   homepage "http://vdjtools-doc.readthedocs.org"
   url "https://github.com/mikessh/vdjtools/releases/download/1.0.8/vdjtools-1.0.8.zip"
   version "1.0.8"
-  sha256 "1ef7dd83d0f90ede2c2982a641fc27b6d58b1e8d448e985913b210747253ed63"
+  sha256 "3011e43b6128058e2f45fb5e8a43b16b35849ba417fae5ee9ad4ce08e34bea14"
 
   depends_on :java
 
