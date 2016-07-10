@@ -6,7 +6,7 @@ jdk: oraclejdk8
 
 install:
   - echo -ne '\n' | ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
-  - export PATH="$PATH:$HOME/.linuxbrew"
+  - export PATH="$PATH:$HOME/.linuxbrew/bin"
   - curl -OL https://raw.githubusercontent.com/metacran/r-builder/master/pkg-build.sh
   - chmod 755 pkg-build.sh
   - ./pkg-build.sh bootstrap
