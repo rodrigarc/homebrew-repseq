@@ -4,6 +4,7 @@
 brew tap mikessh/repseq
 brew install migec
 brew install vdjtools
+brew install vdjdb
 
 # The following come separately for MacOS and Linux (linuxbrew)
 brew install igblast-linux
