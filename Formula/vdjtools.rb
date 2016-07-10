@@ -1,9 +1,9 @@
 class Vdjtools < Formula
   desc "VDJtools: a framework for post-analysis of immune repertoire sequencing data."
   homepage "http://vdjtools-doc.readthedocs.org"
-  url "https://github.com/mikessh/vdjtools/releases/download/1.0.9/vdjtools-1.0.9.zip"
-  version "1.0.9"
-  sha256 "5b68c701d7f91bf27bc1969e80388deebc07f738df7bfb4b853297e8f12a8d58"
+  url "https://github.com/mikessh/vdjtools/releases/download/1.1.0/vdjtools-1.1.0.zip"
+  version "1.1.0"
+  sha256 "399aab49005ca860648fb779dda735bf9d7600ea16e3427d36edb060a6429b9b"
 
   depends_on :java
   depends_on "gcc"
