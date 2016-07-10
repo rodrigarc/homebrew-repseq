@@ -11,6 +11,7 @@ script:
   - brew tap mikessh/repseq
   - brew install migec
   - brew install vdjtools
+  - cat /Users/travis/Library/Logs/Homebrew/vdjtools/01.vdjtools
   - brew install vdjdb
   - brew install igblast-linux
   - brew install migmap-linux
