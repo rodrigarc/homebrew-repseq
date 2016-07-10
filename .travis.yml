@@ -1,0 +1,20 @@
+language: ruby
+
+sudo: required
+
+jdk: oraclejdk8
+
+install:
+  - curl -OL https://raw.githubusercontent.com/metacran/r-builder/master/pkg-build.sh
+  - chmod 755 pkg-build.sh
+  - ./pkg-build.sh bootstrap
+  - export PATH="$PATH:`./pkg-build.sh r_path`"
+  - ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
+
+script:
+  - brew tap mikessh/repseq
+  - brew install migec
+  - brew install vdjtools
+  - brew install vdjdb
+  - brew install igblast-linux
+  - brew install migmap-linux
