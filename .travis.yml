@@ -2,6 +2,9 @@ os: osx
 
 language: java
 
+install:
+  - brew update
+
 script:
   - brew tap mikessh/repseq
   - brew install migec
