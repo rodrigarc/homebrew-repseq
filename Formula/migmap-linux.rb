@@ -1,9 +1,9 @@
 class MigmapLinux < Formula
   desc "MIGMAP: HTS-compatible wrapper for IgBlast V-(D)-J mapping tool."
   homepage "https://github.com/mikessh/migmap"
-  url "https://github.com/mikessh/migmap/releases/download/1.0.0/migmap-1.0.0.zip"
-  version "1.0.0"
-  sha256 "8fa8aa1d59672c7add68a7f6044fa35a813ded87abcfc91fb6de7490c202d093"
+  url "https://github.com/mikessh/migmap/releases/download/1.0.1/migmap-1.0.1.zip"
+  version "1.0.1"
+  sha256 "11ccbd5f2ea801676df41c5c1c75f0a1d52479a98c87ec2223f446467054f8f2"
 
   depends_on "igblast-linux"
   
@@ -14,5 +14,6 @@ class MigmapLinux < Formula
 
   test do
     system "migmap", "-h"
+    system "migmap", "-S human -R IGH test/sample.fasta.gz test"
   end
 end
