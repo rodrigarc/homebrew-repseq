@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mikessh/homebrew-repseq.svg?branch=master)](https://travis-ci.org/mikessh/homebrew-repseq)
+
 ### [Homebrew](http://brew.sh) repository for immune repertoire sequencing data analysis packages.
 
 ```{bash}
