@@ -9,7 +9,6 @@ install:
 script:
   - brew tap homebrew/science
   - brew tap mikessh/repseq
-  - brew tap mikessh/repseq
   - brew install migec
   - brew install vdjtools
   - brew install vdjdb

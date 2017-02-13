@@ -1,9 +1,9 @@
 class Vdjdb < Formula
   desc "VDJdb: a software for functional annotation of T-cell repertoires"
   homepage "https://github.com/antigenomics/vdjdb-standalone/blob/master/README.md"
-  url "https://github.com/antigenomics/vdjdb-standalone/releases/download/1.1.2/vdjdb-1.1.2.zip"
-  version "1.1.2"
-  sha256 "40891255e5755e2b7b12baab9030a0f9eadf5a572afce546716361794479cf8e"
+  url "https://github.com/antigenomics/vdjdb-standalone/releases/download/1.1.5/vdjdb-1.1.5.zip"
+  version "1.1.5"
+  sha256 "a0a279eee20bad5902205836227f4fd6a300e7b46ad4fc7822189a68f1003c86"
 
   depends_on :java
 
