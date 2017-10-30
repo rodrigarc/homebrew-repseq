@@ -12,5 +12,6 @@ script:
   - brew install migec
   - brew install vdjtools
   - brew install vdjdb
+  - brew unlink blast
   - brew install igblast-linux
   - brew install migmap-linux
