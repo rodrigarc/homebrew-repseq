@@ -1,4 +1,4 @@
-language: ruby
+language: java
 
 before_install:
   # Install Linuxbrew
@@ -10,7 +10,6 @@ before_install:
 
 install:
   - brew update
-  - brew install java
 
 script:
   - brew tap homebrew/science
