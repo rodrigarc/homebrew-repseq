@@ -14,9 +14,9 @@ install:
 script:
   - brew tap homebrew/science
   - brew tap mikessh/repseq
-  - brew install migec
-  - brew install vdjtools
-  - brew install vdjdb
-  - brew unlink blast
-  - brew install igblast-linux
-  - brew install migmap-linux
+  - travis_wait brew install migec
+  - travis_wait brew install vdjtools
+  - travis_wait brew install vdjdb
+  - travis_wait brew unlink blast
+  - travis_wait brew install igblast-linux
+  - travis_wait brew install migmap-linux
