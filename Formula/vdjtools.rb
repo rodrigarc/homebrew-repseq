@@ -1,9 +1,9 @@
 class Vdjtools < Formula
   desc "VDJtools: a framework for post-analysis of immune repertoire sequencing data."
   homepage "http://vdjtools-doc.readthedocs.org"
-  url "https://github.com/mikessh/vdjtools/releases/download/1.1.4/vdjtools-1.1.4.zip"
-  version "1.1.4"
-  sha256 "e5b85813aaccf1e37c3e1f9f61936ab282aec5a37455a7094ae6f5b8d229b4cb"
+  url "https://github.com/mikessh/vdjtools/releases/download/1.1.7/vdjtools-1.1.7.zip"
+  version "1.1.7"
+  sha256 "1842cc229a5e0781ebbda1c34baf3c69929466fb68b637a5636a9671a0268801"
 
   depends_on :java
   depends_on "gcc"
@@ -11,8 +11,8 @@ class Vdjtools < Formula
 
   def install
     prefix.install Dir["*"]
-    bin.install_symlink "../vdjtools"
-    system "#{bin}/vdjtools", "RInstall"
+    bin.install_symlink "../vdjtools-1.1.7"
+    system "#{bin}/vdjtools-1.1.7", "RInstall"
   end
 
   test do

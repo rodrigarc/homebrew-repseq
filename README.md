@@ -18,7 +18,7 @@ We'll also need some dependencies from Homebrew/Science:
 brew tap homebrew/science
 ```
 
-Installing RepSeq software:
+Installing RepSeq software bundle:
 
 ```{bash}
 brew tap mikessh/repseq
@@ -34,3 +34,7 @@ brew install igblast-macos
 brew install migmap-macos
 ```
 
+This will install the software and make command line aliases: ``migec``, ``vdjtools``, etc.
+To allocate more memory for Java (in case of Out Of Memory Errors), append ``-Xmx?`` option, e.g. ``migec -Xmx40G ...``.
+
+N.B. If the script complains about BLAST already installed - use ``brew unlink blast``
