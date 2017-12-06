@@ -10,12 +10,12 @@ before_install:
 
 install:
   - brew update
-  - brew tap homebrew/science
-  - brew install blast
+#  - brew tap homebrew/science
+#  - brew install blast
 
 script:
   - brew tap mikessh/repseq
-  - travis_wait brew install migec
+#  - travis_wait brew install migec
   - travis_wait brew install vdjtools
   - travis_wait brew install vdjdb
   - travis_wait brew install igblast-linux
