@@ -1,9 +1,9 @@
 class Vdjmatch < Formula
   desc "VDJmatch: a software for functional annotation of T-cell repertoires"
   homepage "https://github.com/antigenomics/vdjmatch/blob/master/README.md"
-  url "https://github.com/antigenomics/vdjmatch/releases/download/1.2.0/vdjdb-1.2.0.zip"
-  version "1.2.0"
-  sha256 "272e1792f9ac7c4f258bb29c9b0d1c04bda9b1de47b596e7de7821ca7a18e552"
+  url "https://github.com/antigenomics/vdjmatch/releases/download/1.3.1/vdjmatch-1.3.1.zip"
+  version "1.3.1"
+  sha256 "f8e61852d1d6ca499d04667b8e9cd2bdf59b71fa0fa5844c1016e45d30acd71f"
 
   depends_on :java
 
