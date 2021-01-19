@@ -12,10 +12,10 @@ Make sure you have Java 1.8 installed. On MacOS you can use
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 ```
 
-We'll also need some dependencies from Homebrew/Science:
-(deprecated)
+We'll also need some dependencies from brewsci/bio:
 ```{bash}
 brew tap homebrew/science (deprecated)
+brew tap brewsci/bio
 ```
 
 Installing RepSeq software bundle:
