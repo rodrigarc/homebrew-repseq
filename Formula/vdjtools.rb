@@ -5,7 +5,7 @@ class Vdjtools < Formula
   version "1.2.1"
   sha256 "69065a80708b0c098fa271cd3b4f4928390f2bc8476a7c2b6aa3be0f11e29ba0"
 
-  depends_on :java
+  depends_on "openjdk@8"
   depends_on "gcc"
   depends_on "r"
 
