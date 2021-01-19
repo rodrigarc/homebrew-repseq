@@ -5,7 +5,7 @@ class Migec < Formula
   version "1.2.9"
   sha256 "4a9ace1ab932d06154cdd3eaf6724f55c8dc5c3ce68108b8a4d30ecb0d58ea7e"
 
-  depends_on :java
+  depends_on "openjdk@8"
   depends_on "blast"
 
   def install
