@@ -5,7 +5,7 @@ class Vdjmatch < Formula
   version "1.3.1"
   sha256 "f8e61852d1d6ca499d04667b8e9cd2bdf59b71fa0fa5844c1016e45d30acd71f"
 
-  depends_on :java
+  depends_on "openjdk@8"
 
   def install
     prefix.install Dir["*"]
