@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/mikessh/homebrew-repseq.svg?branch=master)](https://travis-ci.org/mikessh/homebrew-repseq)
 
 ### [Homebrew](http://brew.sh) repository for immune repertoire sequencing data analysis packages.
-
+##Edited by @rodrigarc due to java inconsistencies in the original code
 ```{bash}
 brew update
 ```
@@ -9,19 +9,19 @@ brew update
 Make sure you have Java 1.8 installed. On MacOS you can use
 
 ```{bash}
-brew cask install java
+brew install --cask homebrew/cask-versions/adoptopenjdk8
 ```
 
 We'll also need some dependencies from Homebrew/Science:
-
+(deprecated)
 ```{bash}
-brew tap homebrew/science
+brew tap homebrew/science (deprecated)
 ```
 
 Installing RepSeq software bundle:
 
 ```{bash}
-brew tap mikessh/repseq
+brew tap rodrigarc/homebrew-repseq
 brew install migec
 brew install vdjtools
 brew install vdjdb
