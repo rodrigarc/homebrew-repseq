@@ -24,7 +24,7 @@ Installing RepSeq software bundle:
 brew tap rodrigarc/homebrew-repseq
 brew install migec
 brew install vdjtools
-brew install vdjdb (not fixed yet)
+brew install vdjdb #(not fixed yet)
 
 # The following come separately for MacOS and Linux (linuxbrew)
 brew install igblast-linux
